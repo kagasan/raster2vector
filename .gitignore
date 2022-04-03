@@ -1,0 +1,5 @@
+*.out
+cpp/stb_image.h
+cpp/stb_image_write.h
+.DS_Store
+.vscode/
