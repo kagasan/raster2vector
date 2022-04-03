@@ -14,7 +14,8 @@ sh build.sh
 
 ## sample
 - [input](https://github.com/kagasan/raster2vector/blob/main/sample.png)
-- [output](https://kagasan.github.io/raster2vector/)
+- [output](https://github.com/kagasan/raster2vector/blob/main/result.svg)
+- [output(viewer)](https://kagasan.github.io/raster2vector/)
 
 ## ○○したい
 ### 一部領域（人間の顔など）だけ高解像にしたい
