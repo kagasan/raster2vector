@@ -8,7 +8,7 @@ sh build.sh
 
 ## run
 ```
-./raster2vector.out sample.jpg result.svg index.html
+./raster2vector.out sample.png result.svg index.html
 # 実行中はブラウザでindex.htmlを開いて過程を確認できます。
 ```
 

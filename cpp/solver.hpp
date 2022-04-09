@@ -22,7 +22,6 @@ class Solver{
         canvas = Image(goal.size);
     }
     void solve(std::string viewer_file_name, bool auto_reload = true, int iterate_num = 1000, int max_r = 100, int quality = 10) {
-        write_viewer(viewer_file_name);
         ring = Ring(max_r);
         int last_r = max_r;
         for (int iterate = 0; iterate < iterate_num; iterate++) {
