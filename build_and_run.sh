@@ -1,13 +1,11 @@
 set -eu
 
-echo download libraries
-curl https://raw.githubusercontent.com/nothings/stb/master/stb_image.h -o ./cpp/stb_image.h
-curl https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h -o ./cpp/stb_image_write.h
+sh build.sh
 
-echo compile
-g++ -std=c++11 ./cpp/main.cpp -O3 -o raster2vector.out -Wall
+echo run start
+VIEWER_FILE=index.html
+touch ${VIEWER_FILE}
+open ${VIEWER_FILE}
+./raster2vector.out sample.png result.svg ${VIEWER_FILE}
 
-echo run
-./raster2vector.out sample.png result.svg index.html
-
-echo finish
+echo run finish
