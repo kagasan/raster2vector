@@ -30,7 +30,7 @@ class Solver{
             extend_stroke(stroke);
             canvas.paint(stroke);
             strokes.push_back(stroke.light_stroke());
-            if(iterate % 10 == 0)write_viewer(viewer_file_name, auto_reload);
+            if(iterate % 10 == 9)write_viewer(viewer_file_name, auto_reload);
             // canvas.write_png("canvas.png");
         }
     }
